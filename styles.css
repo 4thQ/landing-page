@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+.section0{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    border: solid green 5px;
+}
+
+.push{
+    margin-left: auto;
+}
+
+.section1{
+    border: solid green 5px;
+    display: flex;
+    justify-content: center ;
+    gap: 30px;
+
+
+}
+.left{
+      border: solid pink 5px;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.right{
+    border: solid red 5px;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+
+    
+}
+
+.flower{
+    max-width:100%;
+    max-height:100%;
+    
+}
+/* .signUp{
+    display: block;
+} */
