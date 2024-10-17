@@ -4,7 +4,7 @@ body{
     color: white;
     background-color: black;
 }
-
+/* Section 0 */
 .section0{
     background-color: black;
     color: white;
@@ -13,15 +13,23 @@ body{
     display: flex;
     gap: 30px;
     padding: 10px;
-    border: solid green 5px;
+    /* border: solid green 5px; */
+    display: flex;
+    flex-direction: row;
+    margin-right:200px;
+    
 }
 
 .push{
     margin-left: auto;
+    
 }
-
+.headerLogo{
+    margin-left: 80px;
+}
+/* Section 1 */
 .section1{
-    border: solid green 5px;
+    /* border: solid green 5px; */
     display: flex;
     justify-content: center ;
     gap: 30px;
@@ -29,15 +37,31 @@ body{
 
 }
 .left{
-      border: solid pink 5px;
+      /* border: solid pink 5px; */
     height: 250px;
     width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
+  display: flex;
+  flex-direction: column;
+  
 }
+
+.signUp{
+    display: block;
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: rgb(30, 144, 236);
+    color: white;
+    border-radius: 7px;
+}
+
+.left h1{
+
+    font-size: 45px;
+}
+
 .right{
-    border: solid red 5px;
+    /* border: solid red 5px; */
     height: 250px;
     width: 400px;
     display: flex;
@@ -52,6 +76,5 @@ body{
     max-height:100%;
     
 }
-/* .signUp{
-    display: block;
-} */
+
+/* Section 2 */
