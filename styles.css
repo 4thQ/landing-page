@@ -1,80 +1,157 @@
-body{
-    margin: 0;
-    padding: 0;
-    color: white;
-    background-color: black;
-}
-/* Section 0 */
-.section0{
-    background-color: black;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 0%;
-    display: flex;
-    gap: 30px;
-    padding: 10px;
-    /* border: solid green 5px; */
-    display: flex;
-    flex-direction: row;
-    margin-right:200px;
-    
-}
-
-.push{
-    margin-left: auto;
-    
-}
-.headerLogo{
-    margin-left: 80px;
-}
-/* Section 1 */
-.section1{
-    /* border: solid green 5px; */
-    display: flex;
-    justify-content: center ;
-    gap: 30px;
-
-
-}
-.left{
-      /* border: solid pink 5px; */
-    height: 250px;
-    width: 400px;
+.section1 {
+  border: solid pink 2px;
   display: flex;
   flex-direction: column;
-  
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  border: solid blue 2px;
+  display: flex;
+  justify-content: flex-end;
+  width: 800px;
+  gap: 20px;
+}
+.push {
+  margin-right: auto;
 }
 
-.signUp{
-    display: block;
-    width: 80px;
-    height: 25px;
-    margin-top: 10px;
-    background-color: rgb(30, 144, 236);
-    color: white;
-    border-radius: 7px;
+.header {
+  width: 800px;
+  display: block;
+  border: solid green 2px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
 }
 
-.left h1{
-
-    font-size: 45px;
+.leftbox {
+  border: solid green 2px;
+  height: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.leftbox h1 {
+  margin-top: 65px;
+  margin-bottom: 0px;
+  font-size: 48px;
+  font-weight: 900;
 }
 
-.right{
-    /* border: solid red 5px; */
-    height: 250px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-
-
-    
+.leftbox p {
+  margin-top: 0px;
+  font-size: 18px;
+  margin-bottom: 0px;
 }
 
-.flower{
-    max-width:100%;
-    max-height:100%;
-    
+.signup-btn {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 7px;
+}
+.rightbox {
+  border: solid green 2px;
+  height: auto;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+.motivation {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* SECTION 2 */
+
+.section2 {
+  border: solid 2px yellow;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Section 2 */
+.container {
+  border: solid 2px black;
+  width: 700px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  border: solid 2px blue;
+  width: 150px;
+  height: 170px;
+}
+.box1 {
+}
+.test1 {
+  border: solid 2px red;
+  height: 170px;
+  width: 150px;
+}
+
+/* Section 3 */
+.section3 {
+  border: solid 2px rgb(25, 0, 255);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.threebox {
+  border: solid red 2px;
+  width: 800px;
+  font-size: 30px;
+  font-style: italic;
+}
+.thor {
+  border: #3882f6 solid 2px;
+  width: 780px;
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
+}
+/* Section 4 */
+.section4 {
+  border: solid 2px rgb(214, 99, 23);
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finalbox {
+  border: solid 2px rgb(0, 0, 0);
+  height: 90px;
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+.finalbox1 {
+  border: #38f681 solid 2px;
+  height: 100px;
+  width: 600px;
+}
+
+button {
+  float: right;
+
+  background-color: #3075e6;
+  color: white;
+}
+#mula {
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+#sag {
+  margin-top: 0px;
+}
