@@ -1,32 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .section1 {
-  border: solid pink 2px;
+  /* border: solid pink 2px; */
+  color: white;
+  background-color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .nav {
-  border: solid blue 2px;
+  /* border: solid blue 2px; */
   display: flex;
   justify-content: flex-end;
   width: 800px;
   gap: 20px;
+  margin-top: 30px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
 }
 .push {
   margin-right: auto;
+  font-weight: bold;
 }
 
 .header {
   width: 800px;
   display: block;
-  border: solid green 2px;
+  /* border: solid green 2px; */
   height: 300px;
   display: flex;
   flex-direction: row;
 }
 
 .leftbox {
-  border: solid green 2px;
+  /* border: solid green 2px; */
   height: auto;
   width: 400px;
   display: flex;
@@ -56,7 +70,7 @@
   margin-right: 332px;
 }
 .rightbox {
-  border: solid green 2px;
+  /* border: solid green 2px; */
   height: auto;
   width: 400px;
   display: flex;
@@ -69,7 +83,7 @@
 /* SECTION 2 */
 
 .section2 {
-  border: solid 2px yellow;
+  /* border: solid 2px yellow; */
   height: 400px;
   text-align: center;
   display: flex;
@@ -79,7 +93,7 @@
 }
 
 .container {
-  border: solid 2px black;
+  /* border: solid 2px black; */
   width: 700px;
   height: 200px;
   display: flex;
@@ -88,21 +102,23 @@
 }
 
 .box {
-  border: solid 2px blue;
+  /* border: solid 2px blue; */
   width: 150px;
   height: 170px;
 }
 .box1 {
 }
 .test1 {
-  border: solid 2px red;
+  border: solid 2px rgb(58, 152, 240);
   height: 170px;
   width: 150px;
+  border-radius: 7px;
 }
 
 /* Section 3 */
 .section3 {
-  border: solid 2px rgb(25, 0, 255);
+  /* border: solid 2px rgb(25, 0, 255); */
+  background-color: #dadcdf;
   height: 300px;
   display: flex;
   justify-content: center;
@@ -110,13 +126,13 @@
 }
 
 .threebox {
-  border: solid red 2px;
+  /* border: solid red 2px; */
   width: 800px;
   font-size: 30px;
   font-style: italic;
 }
 .thor {
-  border: #3882f6 solid 2px;
+  /* border: #3882f6 solid 2px; */
   width: 780px;
   text-align: right;
   font-weight: bold;
@@ -124,7 +140,7 @@
 }
 /* Section 4 */
 .section4 {
-  border: solid 2px rgb(214, 99, 23);
+  /* border: solid 2px rgb(214, 99, 23); */
   height: 220px;
   display: flex;
   justify-content: center;
@@ -132,15 +148,19 @@
 }
 
 .finalbox {
-  border: solid 2px rgb(0, 0, 0);
+  /* border: solid 2px rgb(0, 0, 0); */
+  background-color: #3882f6;
+  border-radius: 6px;
+  color: white;
   height: 90px;
   width: 700px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .finalbox1 {
-  border: #38f681 solid 2px;
+  /* border: #38f681 solid 2px; */
   height: 100px;
   width: 600px;
 }
@@ -150,6 +170,9 @@ button {
 
   background-color: #3075e6;
   color: white;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 4px;
 }
 #mula {
   margin-bottom: 2px;
@@ -163,7 +186,9 @@ button {
 /* Section 5 */
 
 .section5 {
-  border: #3075e6 solid 2px;
+  /* border: #3075e6 solid 2px; */
+  background-color: rgb(0, 0, 0);
+  color: white;
   height: 50px;
   text-align: center;
   display: flex;
