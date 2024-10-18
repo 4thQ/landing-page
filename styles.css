@@ -61,8 +61,12 @@ body {
 }
 
 .signup-btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: #3882f6;
-  color: white;
+  border-width: 0px;
   border-radius: 7px;
 }
 
@@ -109,10 +113,16 @@ body {
 .box1 {
 }
 .test1 {
-  border: solid 2px rgb(58, 152, 240);
+  /* border: solid 2px rgb(58, 152, 240); */
   height: 170px;
   width: 150px;
   border-radius: 7px;
+}
+
+.testimg {
+  width: 100%;
+  height: 90%;
+  border-radius: 6px;
 }
 
 /* Section 3 */
@@ -168,11 +178,15 @@ body {
 button {
   float: right;
 
-  background-color: #3075e6;
-  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #3882f6;
+  border-width: 5px;
+  border-radius: 7px;
   border-color: white;
-  border-width: 1px;
-  border-radius: 4px;
+  color: white;
 }
 #mula {
   margin-bottom: 2px;
